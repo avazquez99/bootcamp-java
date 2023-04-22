@@ -1,0 +1,9 @@
+Suponiendo que tengo archivos modificados, y de urgencia debo moverme a otra rama, por lo cual no alcanzo a hacer un 
+commit, entonces lo que debo hacer es un GIT STASH. El procedimiento sería el siguiente:
+
+1. git add .    --->   De esta forma trackeo todos los cambios
+2. git stash    --->   Así hago un guardado temporal de los cambios en la rama actual
+3. git checkout <branch_name> --->  Así me muevo a otra rama donde precisen mi ayuda (o con git switch)
+4. git add . + git commit + git push  --->  En el caso de haber modificado algo, actualizar para los demás en el remoto
+5. git checkout <branch_anterior>  ---> Vuelvo a la rama donde estaba luego de ayudar en la otra
+6. git stash apply    --->   Vuelvo a mi commit de esta forma

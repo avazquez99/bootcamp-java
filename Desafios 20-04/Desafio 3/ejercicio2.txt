@@ -1,0 +1,9 @@
+Para fusionar los cambios de otra rama, supongamos, la rama "Front-End" con la rama "Master" (producción), debo 
+seguir los siguientes pasos:
+
+1. Primero, actualizar los cambios en mi rama Front-End con el git pull
+2. Una vez actualizados los cambios, me muevo a la rama master con git checkout o git switch
+3. En la rama master, ejecuto el comando git merge Front-End
+4. Resuelvo conflictos, si los hubiere
+5. Realizo un commit para notificar mi merge
+6. Pusheo los cambios al repositorio remoto con "git push origin master"
