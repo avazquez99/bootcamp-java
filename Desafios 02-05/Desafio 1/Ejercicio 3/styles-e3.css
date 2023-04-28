@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.top {
+
+    background-color: blue;
+    
+}
+
+.top-p {
+
+    color: blue;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+h1 {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+.fecha-23n {
+
+    font-size: 66.66px;
+    color: #0a2ff1;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+.anuncio-black {
+
+    font-size: 197.33px;
+    background-color: black;
+    color: white;
+
+}
+
+.anuncio-friday {
+
+    font-size: 217.33px;
+    color: black;
+
+}
+
+p {
+
+    font-size: 48px;
+    color: #0a2ff1;
+
+}
+
+strong:last-child {
+
+    font-size: 60px;
+    color: white;
+    background-color: black;
+
+}
+
+.mensaje-ntlp {
+
+    font-size: 58.66px;
+    color: #0a2ff1;
+    display: block;
+
+}
+
+h3 {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+.bottom {
+    
+    background-color: blue;
+
+}
+
+.bottom-p {
+
+    padding-top: 50px;
+    height: 100px;
+    color: blue;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
