@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    text-align: center;
+
+}
+
+h1 {
+
+    color: #04146c;
+    font-size: 88px;
+
+}
+
+h2 {
+
+    color: white;
+    background-color: #04146c;
+    font-size: 38.6px;
+
+}
+
+h3 {
+
+    color: #04146c;
+    font-size: 26.6px;
+    font-weight: 200; /* Con esta propiedad destaco un strong dentro del h */
+
+}
+
+p {
+
+    font-size: 24px;
+    color: #04146c;
+    background-color: #edf7ff;
+
+}
+
+.cont-img {
+
+    width: 50%;
+    align-content: center;
+    margin: auto;
+
+}
+
+img {
+
+    width: 600px;
+    align-content: center;
+    margin: auto;
+
+}
