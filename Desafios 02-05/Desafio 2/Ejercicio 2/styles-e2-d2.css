@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p {
+
+    color: #0a2ff1;
+    font-size: 32px;
+
+}
+
+img {
+
+    width: 100px; vertical-align: middle; margin-left: 30px;
+
+}
+
+/* El margin-left es un espacio al costado izquierdo de cada img*/
+/* vertical-align me alinea las imagenes según yo elija */
