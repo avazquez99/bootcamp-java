@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+header {
+    position: relative; /*Asegura que la imagen se posicione correctamente dentro del header*/
+    max-width: 100%; /*Establece un ancho máximo, basandose en su contenedor padre*/
+}
+
+header img {
+    width: 100%;
+    display: block; /*Asegura que la imagen ocupe todo el ancho disponible*/
+}
+
+main {
+    width: 80%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #15163d;
+    height: 10px;
+    width: 100%;
+}
+
+.section {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 58.66px;
+    color: #0a2ff1;
+    text-align: center;
+}
+
+h2, p, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25.33px;
+    text-align: left;
+}
+
+h2 {
+    color: #0a2ff1;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: #000000;
+}
+
+button {
+    font-family: 'Roboto regular', sans-serif;
+    border: none;
+    color: white;
+    background-color: #0a2ff1;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.click {
+    font-size: 24px;
+}
