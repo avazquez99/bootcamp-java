@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-e2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="e-2">
+                <nav>
+                    <img src="../Recursos/M5-logo-azul.svg" alt="logo-WH" id="logo">
+                    <ul>
+                        <li>
+                            <a href="../Ejercicio 1&3/index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a class="active">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="form-area">
+            <h2>¿Querés que nos contactamos con vos?</h2>
+            <form action="post">
+                <p>Dejanos tu consulta:</p>
+                <label for="nombre">Nombre completo <p class="required">*</p> </label>
+                <input type="text" required>
+                <label for="nombre">Email <p class="required">*</p> </label>
+                <input type="email" placeholder="yourname@example.com" required>
+                <label for="nombre">Comentario <p class="required">*</p> </label>
+                <textarea name="comment" id="comment" required></textarea>
+                <div class="buttons">
+                    <button type="reset" id="reset">Resetear</button>
+                    <button type="submit" id="sent">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <footer><img src="../Recursos/M5-logo-blanco.svg" alt="footer-logo" id="footer"></footer>
+    </main>
+</body>
+
+</html>

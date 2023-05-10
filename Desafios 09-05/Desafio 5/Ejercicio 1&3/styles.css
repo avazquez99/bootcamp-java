@@ -1,0 +1,147 @@
+/*Roboto - Regular & Bold*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Roboto Slab - Regular & Bold*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #3957f1;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+}
+
+/*ESTILOS EJERCICIO 1*/
+
+header {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+nav {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    height: 100px;
+}
+
+.text1 {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+ul li {
+    padding-left: 20px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    color: #04146c;
+    text-decoration: none; /*Borra el underline*/
+}
+
+#logo {
+    width: 5%;
+}
+
+h1 {
+    font-size: 96px;
+    color: #0a2ff1;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.paragraph1 {
+    font-size: 34.66px;
+    color: #04146c;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/*ESTILOS EJERCICIO 3*/
+
+.e-3 {
+    background-color: white;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45.33px;
+    color: #0a2ff1;
+    margin: 0;
+    padding: 0;
+}
+
+h3, p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #04146c;
+}
+
+p {
+    padding-bottom: 0;
+}
+
+.img {
+    width: 40%;
+}
+
+.text3-container {
+    width: 60%;
+}
+
+.text3 {
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    justify-content: left;
+}
+
+.img {
+    background-image: url(../Recursos/M5-Desafio3-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: -45px;
+    width: 70%;
+}
+
+footer {
+    height: 100px;
+    background-color: #3957f1;
+
+}
+
+#footer {
+    width: 15%;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
