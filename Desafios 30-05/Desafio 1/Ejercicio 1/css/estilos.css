@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*Contenedor 1: Título*/
+
+.title {
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mulish Bold', sans-serif;
+    font-size: 53.33px;
+    color: #3957f1;
+}
+
+/*Contenedor 2: Imagenes con texto*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.images {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.first-image, .second-image, .third-image, .fourth-image {
+    background-size: cover;
+    width: 100%; 
+}
+
+img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se ajuste correctamente en su contenedor */
+}
+
+.first-box, .second-box, .third-box, .fourth-box {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*Estilo para dar las sombras*/
+    display: block;
+    border: 0;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Mulish Regular', sans-serif;
+    font-size: 28px;
+    color: #15163d;
+    
+}
