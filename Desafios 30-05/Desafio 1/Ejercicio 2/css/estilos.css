@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*Estilos de textos*/
+
+html {
+    font-size: 16px;
+    /*Tipografía base para ajustar los textos con REM*/
+}
+
+/*Contenedor 1: Título*/
+
+.title {
+    margin: 20px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #0a2ff1;
+    margin: 10px 0 10px 20px;
+}
+
+/*Contenedor 2: Imagenes con texto*/
+
+/*Textos*/
+
+h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+.first-option,
+.second-option,
+.third-option,
+.fourth-option {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Imagenes*/
+
+.images {
+    display: flex;
+    justify-content: center; 
+    width: 80%;
+    margin: auto;
+}
+
+.first-box,
+.second-box,
+.third-box,
+.fourth-box {
+    background-repeat: no-repeat;
+    background-size: cover; /*Esta propiedad hace que la imagen se vea completa, sin importar el tamaño de la caja*/
+    border-radius: 5px;
+    height: 200px;
+    width: 323px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    justify-content: space-between;
+
+}
+
+.first-box {
+    background-image: url(../Recursos/ProgramasInternacionales.png);
+    margin-left: 1px;
+}
+
+.second-box {
+    background-image: url(../Recursos/ParcticasProfesionales.png);
+}
+
+.third-box {
+    background-image: url(../Recursos/Becas.png);
+}
+
+.fourth-box {
+    background-image: url(../Recursos/CampusVirtual.png);
+}
+
+/*Formato*/
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.images {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .first-box,
+    .second-box,
+    .third-box,
+    .fourth-box {
+        width: 50%;
+    }
+}
