@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
+html {
+    font-size: 16px;
+}
+
 /*Contenedor 1: Título*/
 
 .title {
@@ -11,7 +15,7 @@
 
 h1 {
     font-family: 'Mulish Bold', sans-serif;
-    font-size: 53.33px;
+    font-size: 4rem;
     color: #3957f1;
     text-align: center;
 }
@@ -30,12 +34,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
 }
 
-.first-image, .second-image, .third-image, .fourth-image {
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
     background-size: cover;
-    width: 100%; 
+    width: 100%;
 }
 
 img {
@@ -44,35 +50,44 @@ img {
     display: block; /* Asegura que la imagen se ajuste correctamente en su contenedor */
 }
 
-.first-box, .second-box, .third-box, .fourth-box {
+.first-box,
+.second-box,
+.third-box,
+.fourth-box {
+    height: 350px;
+    width: 323px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*Estilo para dar las sombras*/
     display: block;
     border: 0;
-    margin-left: 8px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin: 10px 0 50px 10px;
+    overflow: hidden; /*Evita que el texto se salga de la caja, pero corta todo lo que sobresale*/
 }
 
-.first-option, .second-option, .third-option, .fourth-option {
+.first-option,
+.second-option,
+.third-option,
+.fourth-option {
     text-align: center;
 }
 
 h2 {
     font-family: 'Mulish Regular', sans-serif;
-    font-size: 28px;
+    font-size: 2rem;
     color: #15163d;
-    
+
 }
 
 /*Con esta Query hago que el diseño tome el 100% de la pantalla, logrando así una imagen compresible al achicar la pantalla por debajo de 
 los 768 px*/
 @media (max-width: 768px) {
+
     .first-box,
     .second-box,
     .third-box,
     .fourth-box {
-      width: 100%;
+        width: 100%;
     }
 }
