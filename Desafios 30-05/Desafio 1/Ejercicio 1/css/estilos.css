@@ -3,15 +3,17 @@
 /*Contenedor 1: Título*/
 
 .title {
-    margin: 10px;
-    width: 100%;
+    margin: 20px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
     font-family: 'Mulish Bold', sans-serif;
     font-size: 53.33px;
     color: #3957f1;
+    text-align: center;
 }
 
 /*Contenedor 2: Imagenes con texto*/
@@ -27,6 +29,7 @@ h1 {
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
 }
 
@@ -49,7 +52,10 @@ img {
     border: 0;
     margin-left: 8px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.first-option, .second-option, .third-option, .fourth-option {
     text-align: center;
 }
 
@@ -58,4 +64,15 @@ h2 {
     font-size: 28px;
     color: #15163d;
     
+}
+
+/*Con esta Query hago que el diseño tome el 100% de la pantalla, logrando así una imagen compresible al achicar la pantalla por debajo de 
+los 768 px*/
+@media (max-width: 768px) {
+    .first-box,
+    .second-box,
+    .third-box,
+    .fourth-box {
+      width: 100%;
+    }
 }
