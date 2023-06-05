@@ -7,10 +7,10 @@ var edad = parseInt(prompt("Ingrese su edad: "));
 
 if (edad >= 18) {
 
-    console.log("Bienvenido al sistema " + nombre)
+    console.log("Bienvenido al sistema " + nombre);
 
 } else {
 
-    alert("Lamentamos el inconveniente. Usted es menor de edad para ingresar al sistema")
+    alert("Lamentamos el inconveniente. Usted es menor de edad para ingresar al sistema");
 
 };
